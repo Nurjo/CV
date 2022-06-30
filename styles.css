@@ -52,6 +52,12 @@ a:visited { /*после посещения ссылки станет серой
 .table {
   color: black;
 }
+.grey {
+  font-size: 14px;
+  color: gray;
+  margin: 0;
+  margin-left: 20px;
+}
 .table p  {
   margin: 0;
   margin-left: 20px;
@@ -95,6 +101,10 @@ hr{
 }
 .bg-red {
   background: #ffe5e5;
+}
+
+.bg-blue {
+  background: rgb(202, 224, 245);
 }
 
 .card {
