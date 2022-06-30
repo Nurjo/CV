@@ -1,0 +1,117 @@
+@import url(//db.onlinewebfonts.com/c/c36a75c5ada59665e225bbf5e38efd34?family=Averta-Bold);
+
+body {
+  background-color:white;
+  color: grey;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'calibri';
+  font-style: normal;
+}
+body h2 {
+  color: black;
+  margin: 18px 10px 10px 0px;
+}
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 15%;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+a {  /*стили для всех ссылок*/
+  color: black;  
+  text-decoration: none;
+  margin: 0 0 0 20px;
+   
+  font-size: 12px;
+}
+a:hover {  /*наведение мышки*/
+  text-decoration: underline;
+}
+a:active { /*зажатие мышки*/
+  color: black;
+}
+a:visited { /*после посещения ссылки станет серой*/
+  color: gray;
+}
+.info p {
+  color: black;
+  margin: 0;
+  font-weight: normal;
+}
+.info {
+  display: flex; 
+}
+.info-text {
+  margin-left: 40px;
+}
+.info-text h1, .info-text h4 {
+  margin: 0px;
+  margin-top: 10px;
+}
+.table {
+  color: black;
+}
+.table p  {
+  margin: 0;
+  margin-left: 20px;
+}
+h4 {
+  color: black;
+  margin: 7px 0 7px 0;
+  margin-left: 20px;
+}
+.work {
+  color: black;
+  padding: 10px;
+}
+.company {
+  margin-bottom: 0;
+}
+.education {
+  /* color: black; */
+  padding: 5px;
+  padding-left: 53.5px;
+}
+hr{
+  margin: 0 0 0 23px
+}
+.headline {
+  margin: 20px 0 0 23px;
+}
+
+.container {
+  max-width: 700px; /*позволяет исп. меньше пространства*/
+  margin: auto; /*по центру*/
+  padding-top: 30px;
+}
+
+.bg-yellow {
+  background: #fff9dc;
+  color: black;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+.bg-red {
+  background: #ffe5e5;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+
+@media (max-width:700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
